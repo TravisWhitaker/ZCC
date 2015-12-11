@@ -2,7 +2,7 @@
 Zero Copy Challenge
 
 # What is the Zero Copy Challenge?
-The Zero Copy Challenge is a programming challenge that aims to implement many useful algorithms in C without allocating any memory besides the return value. Creative use of the return value is encouraged - and often needed - while stack variables, dynamic memory allocation, the register keyword, and blindly poking values in random spots is forbidden. 
+The Zero Copy Challenge is a programming challenge that aims to implement many useful algorithms in C without allocating any memory besides a single stack variable used for the return value (optionally). Creative use of the return value is encouraged - and often needed - while stack variables, dynamic memory allocation, the register keyword, and blindly poking values in random spots is forbidden. 
 
 The solution is ideally sound within its intended limitations. It should be deterministic, and try not to rely on the quirks of its developer's environment. Comments explaining what is going on are preferred. 
 
